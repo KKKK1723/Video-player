@@ -1,0 +1,36 @@
+{
+	"configurations": [
+		{
+			"name": "Windows-Qt",
+			"includePath": [
+				"${workspaceFolder}",
+				"${workspaceFolder}/**",
+				"${env:QTDIR}/include",
+				"${env:QTDIR}/include/QtCore",
+				"${env:QTDIR}/include/QtGui",
+				"${env:QTDIR}/include/QtWidgets",
+				"${env:QTDIR}/include/QtMultimedia",
+				"${env:QTDIR}/include/QtMultimediaWidgets"
+			],
+			"defines": [
+				"UNICODE",
+				"_UNICODE",
+				"QT_CORE_LIB",
+				"QT_GUI_LIB",
+				"QT_WIDGETS_LIB",
+				"QT_MULTIMEDIA_LIB",
+				"QT_MULTIMEDIAWIDGETS_LIB"
+			],
+			"cStandard": "c17",
+			"cppStandard": "c++17",
+			"intelliSenseMode": "windows-msvc-x64",
+			"browse": {
+				"path": [
+					"${workspaceFolder}"
+				],
+				"limitSymbolsToIncludedHeaders": true
+			}
+		}
+	],
+	"version": 4
+} 

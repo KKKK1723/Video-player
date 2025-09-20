@@ -1,0 +1,17 @@
+# Qt/qmake
+build*/
+debug/
+release/
+*.user
+*.pro.user*
+*.qmake.stash
+moc_*/
+ui_*/
+qrc_*/
+*.obj
+*.o
+*.dll
+*.pdb
+*.ilk
+*.exe
+*.md
